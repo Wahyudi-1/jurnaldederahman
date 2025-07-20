@@ -60,7 +60,6 @@
                         <input type="text" id="username" placeholder="Masukkan username Anda" required autocomplete="username">
                     </div>
                     
-                    <!-- [DIPERBAIKI] Bagian Password ditambahkan wrapper dan ikon -->
                     <div class="form-group">
                         <label for="password">Password</label>
                         <div class="password-wrapper">
@@ -88,12 +87,11 @@
     </div>
 
     <!-- ========================================================== -->
-    <!-- JAVASCRIPT LIBRARIES & SCRIPT                              -->
+    <!-- JAVASCRIPT & SCRIPT APLIKASI                               -->
     <!-- Ditempatkan di akhir body untuk rendering halaman yg lebih cepat -->
     <!-- ========================================================== -->
 
-    <!-- [CATATAN] Library ini tidak lagi diperlukan jika Anda sudah beralih ke hashing di sisi server -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <!-- [DIHAPUS] Library CryptoJS tidak lagi diperlukan karena hashing dipindah ke server. -->
     
     <!-- Script utama aplikasi -->
     <script src="app.js"></script>
